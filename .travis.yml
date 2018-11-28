@@ -1,15 +1,15 @@
+dist: xenial
+
+sudo: required
+
+notifications:
+  email: false
+
 language: cpp
 
 compiler:
 - gcc
 - clang
-
-sudo: required
-
-dist: xenial
-
-notifications:
-  email: false
 
 install:
   - sudo apt-get install libboost-dev libboost-test-dev
